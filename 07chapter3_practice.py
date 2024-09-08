@@ -6,4 +6,8 @@
 #q3
 b = "Raghav  Gaba"
 print(b.find("  "))
-
+#q4
+print(b.replace("  ", " "))
+#q5
+print("Dear Harry, \nThis Python course is nice.\nThanks!")
+ 
