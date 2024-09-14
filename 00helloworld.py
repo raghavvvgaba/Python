@@ -15,3 +15,4 @@ for x in range(10):
 name = ['Raghav', 'Dev', 'Priyansh']
 for n in name:
     print(n*4)
+

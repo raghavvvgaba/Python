@@ -9,8 +9,8 @@ print(friends)
 
 print(friends[1:6]) 
 
-#string methods
-friends.append("Harry") #makes insertion at end of the string
+#list methods
+friends.append("Harry") #makes insertion at end of the list
 print(friends)
 
 
