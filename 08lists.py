@@ -9,9 +9,25 @@ print(friends)
 
 print(friends[1:6]) 
 
-#list methods
-friends.append("Harry") #makes insertion at end of the list
+#--------------------list methods--------------------
+friends.append("Harry") #makes insertion at end of the same list. It does not create a new list
 print(friends)
+
+
+list1 = [1,3,5,6]
+list2 = list1
+list1[2] = 7   #this changes both the list as they both are pointing to the same address
+print(list1)
+print(list2)  
+
+list1 = list1[0:2] + [2] + list1[3:] #now this creates a new list admd therefore only changes list1 and not list2
+print(list1)   
+print(list2)  
+
+#concatenation produces a new list whereas append is a function that extends a list with a new value without changing it
+
+list1.extend(list2) #this method works like append and extends the list by itself
+
 
 
 a = [5,3,2,9,0]
@@ -31,5 +47,5 @@ friends.pop(1) #if you give it a index it pops out that element
 print(friends.pop(0)) 
 print(friends)
 
-a.remove(0)
+a.remove(0) #removi
 print(a)

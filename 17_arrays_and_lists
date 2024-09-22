@@ -1,0 +1,19 @@
+Operations with the time they take in arrays and lists
+
+1. Accesing elements 
+- Constant time in array
+- Linear time in lists (as we have to walk down the whole list uptil the given position)
+
+2. Exchanging
+- Constant time in arrays (just exchange the values in their respective position)
+- Linear time in lists (walk down to access the positions and then exchange the value)
+
+3. Deletion or insertion
+- Constant time in lists (just insert/delete the element and change the pointers)
+- Linear time in array (insert/delete and then transfer the remaining elements left/right)
+
+Alogorithms in one data structure may not transfer to another
+
+Are built in lists in Python lists or arrays?
+- Documentation suggests they are list which allow efficient expansion and contraction 
+- However,positional indexing allows us to treat them as arrays
