@@ -1,0 +1,11 @@
+Polymorphism in Python is an object-oriented programming concept where a single interface can be used to represent different types or behaviors. It allows objects of different classes to be treated as objects of a common superclass, enabling flexibility and reusability of code.
+
+Polymorphism: Operator Overloading
+When the same operator is allowed to have different meaning according to the context
+
+eg + operator is used to add two numbers 
+but in case of strings and list, it performs differently (concatenates the string and merge two lists)
+
+Similarly we can create our own functions which will have multiple uses depending on the use case
+
+We create some functions by dunder functions. They are denoted by double underscore. Eg - a.__add__(b)

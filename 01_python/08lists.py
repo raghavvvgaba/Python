@@ -47,5 +47,5 @@ friends.pop(1) #if you give it a index it pops out that element
 print(friends.pop(0)) 
 print(friends)
 
-a.remove(0) #removi
+a.remove(0) #remove
 print(a)
