@@ -1,6 +1,7 @@
 # Methods that don't use the self parameter.  It is used for functionality that is related to the class but does not need access to instance-specific data (self) or class-level data
 # eg - a hello function. A self doesn't make sense here
 
+# Google defintion - A method that belongs to the class rather than the instance of the class
 class Student:
     @staticmethod   #decorator
     def college():

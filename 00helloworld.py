@@ -94,8 +94,17 @@
 # print(s)
 # print(s2)
 
-a=[10,23,56,[78]]
-b=list(a)
-a[3][0]=95
-a[1]=34
-print(b)
+# a=[10,23,56,[78]]
+# b=list(a)
+# a[3][0]=95
+# a[1]=34
+# print(b)
+
+
+def read_file(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+            print(content)
+    except FileNotFoundError:
+        print(f"{file_path} was not found")
